@@ -1,0 +1,77 @@
+.c-section {
+  &--about,
+  &--hymnal,
+  &--insights,
+  &--voxdotcom,
+  &--concert {
+    //border-bottom: 1px solid $color-grey;
+
+    margin-top: 7.5rem;
+
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 5rem;
+
+    @include bp($breakpoint) {
+
+    }
+
+    .images {
+      max-width: 97vw;
+      display: flex;
+      height: 50vw;
+      overflow: scroll;
+      margin-bottom: 2rem;
+
+      @include bp($breakpoint) {
+        height: 35vw;
+        min-height: 500px;
+        max-height: 550px;
+      }
+
+      img {
+        height: 100%;
+        margin-right: 1rem;
+      }
+    }
+
+    .heading {
+      font-family: $font-family--heading;
+      color: $color-text--bold;
+      font-size: 7rem;
+      margin-bottom: 2rem;
+      line-height: 6rem;
+
+      @include bp($breakpoint) {
+        font-size: 12rem;
+        margin-bottom: 3rem;
+        line-height: 10rem;
+      }
+    }
+
+    .tags {
+      margin-bottom: 1.8rem;
+      transform: skew(-10deg);
+      li {
+        display: inline-block;
+        background: $color-text;
+        color: $color-white;
+        font-size: 1.2rem;
+        padding: .75rem 1rem;
+        @include bp($breakpoint) {
+          font-size: 1.4rem;
+        }
+      }
+    }
+
+    p {
+      line-height: 2.8rem;
+      margin-bottom: 1.8rem;
+
+      @include bp($breakpoint) {
+        max-width: 50rem;
+      }
+    }
+  }
+}
