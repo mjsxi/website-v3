@@ -6,7 +6,8 @@
   &--concert {
     //border-bottom: 1px solid $color-grey;
 
-    margin-top: 7.5rem;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
 
     padding-top: 5rem;
     padding-left: 1rem;
@@ -71,6 +72,14 @@
 
       @include bp($breakpoint) {
         max-width: 50rem;
+      }
+    }
+
+    a {
+      color: $color-text--link;
+      transition: color $default-duration;
+      &:hover {
+        color: $color-text--hover;
       }
     }
   }

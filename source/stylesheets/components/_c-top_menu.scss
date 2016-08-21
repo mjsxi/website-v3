@@ -23,6 +23,24 @@
 
     }
 
+    nav {
+      a {
+        cursor: pointer;
+        margin-left: .25rem;
+        transition: color $default-duration;
+        &.active {
+          //font-family: $font-family--heading;
+          color: $color-text--link;
+          &:hover {
+            color: $color-text--link;
+          }
+        }
+        &:hover {
+          color: $color-text--hover;
+        }
+      }
+    }
+
   }
 
   &--name {
