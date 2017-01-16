@@ -16,27 +16,54 @@
 
     }
 
-    .images {
-      display: flex;
-      height: 30vw;
-      overflow: scroll;
-      padding-left: 1.5rem;
-
-      @include bp($breakpoint) {
-        height: 35vw;
-        //min-height: 500px;
-        max-height: 550px;
-        padding-left: calc((100% - 930px)/2);
-      }
-
-      img {
-        height: 100%;
-        margin-right: 1rem;
-      }
+    .image-container {
+      overflow-x: scroll;
+      padding-right: 1.5rem;
 
       &::-webkit-scrollbar {
         width: 0px;
         background: transparent;
+      }
+    }
+
+    .images {
+      padding-left: 1.5rem;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      height: 30vh;
+
+      transition: height .3s;
+
+      @include bp($breakpoint) {
+        height: 40vh;
+        padding-left: calc((100% - 930px)/2);
+
+        &.active {
+          height: 60vh;
+        }
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      img {
+        height: 30vh;
+        margin-right: 1rem;
+        transition: height .3s;
+        transform-origin: center center;
+
+        @include bp($breakpoint) {
+          height: 40vh;
+          transition-delay: 0s;
+
+          &.active {
+            height: 60vh;
+          }
+        }
       }
     }
 

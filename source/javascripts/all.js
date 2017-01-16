@@ -60,6 +60,7 @@ $( function() {
       $('.active').removeClass('active');
       var target = $(e.target);
       target.addClass('active');
+      $('.images').addClass('active');
       expandList(target);
     });
 
@@ -71,6 +72,7 @@ $( function() {
       var active = $('.active');
       if (e.keyCode === 27) {
         active.removeClass('active');
+        $('.images').removeClass('active');
       } else if (e.keyCode === 37 && active.prev().length > 0) {
         active.removeClass('active');
         active.prev().addClass('active');
