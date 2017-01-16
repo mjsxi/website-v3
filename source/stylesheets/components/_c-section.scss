@@ -18,13 +18,13 @@
 
     .images {
       display: flex;
-      height: 50vw;
+      height: 30vw;
       overflow: scroll;
       padding-left: 1.5rem;
 
       @include bp($breakpoint) {
         height: 35vw;
-        min-height: 500px;
+        //min-height: 500px;
         max-height: 550px;
         padding-left: calc((100% - 930px)/2);
       }
