@@ -37,6 +37,15 @@
       }
     }
 
+    .project {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      @include bp($breakpoint) {
+        width: $wrapper-width;
+        margin: 0 auto;
+      }
+    }
+
     .heading {
       font-family: $font-family--heading;
       color: $color-text--bold;

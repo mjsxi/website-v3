@@ -1,12 +1,19 @@
 .c-top_menu {
   position: fixed;
   top: 0;
+  left: 0;
   background: $color-white;
   width: 100vw;
   z-index: 999;
+  font-size: 1.5rem;
 
-  @include bp($breakpoint) {
-    width: $wrapper-width;
+  border-bottom: 1px solid $color-grey;
+
+  &--wrapper {
+    @include bp($breakpoint) {
+      width: $wrapper-width;
+      margin: 0 auto;
+    }
   }
 
   &--contents {
@@ -14,10 +21,8 @@
     align-items: center;
     height: 5rem;
 
-    border-bottom: 1px solid $color-grey;
-
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 
     @include bp($breakpoint) {
 
