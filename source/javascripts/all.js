@@ -24,7 +24,7 @@ $( function() {
       }
     }
     if(within !== wasWithin) {
-      $menuItems.removeClass('active').eq(within).addClass('active');
+      $menuItems.removeClass('nav--active').eq(within).addClass('nav--active');
       wasWithin = within;
     }
   }
