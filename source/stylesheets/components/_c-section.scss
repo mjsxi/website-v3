@@ -18,12 +18,13 @@
 
     .image-container {
       overflow-x: scroll;
-      padding: 1.5rem;
+      padding: 1.5rem 0rem;
       background: $color-text--bold;
 
       &::-webkit-scrollbar {
         width: 0px;
         height: 0px;
+        padding: 1.5rem;
         background: transparent;
       }
     }
