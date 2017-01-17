@@ -92,13 +92,18 @@
 
     .tags {
       margin-bottom: 1.8rem;
-      transform: skew(-10deg);
       li {
         display: inline-block;
         background: $color-text;
         color: $color-white;
         font-size: 1.2rem;
         padding: .75rem 1rem;
+        transform: skew(-10deg);
+        p {
+          transform: skew(10deg);
+          margin-bottom: 0;
+          line-height: 1.75rem;
+        }
         @include bp($breakpoint) {
           font-size: 1.4rem;
         }
