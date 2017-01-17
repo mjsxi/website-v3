@@ -19,6 +19,8 @@
     .image-container {
       overflow-x: scroll;
       padding-right: 1.5rem;
+      padding-top: 1.5rem;
+      background: $color-text--bold;
 
       &::-webkit-scrollbar {
         width: 0px;

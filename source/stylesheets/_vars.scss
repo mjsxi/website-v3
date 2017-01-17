@@ -12,7 +12,7 @@ $color-text--hover:         #E381EB;
 // typography
 
 $font-base-size:            62.5%; //only apply to body
-$font-copy:                 1.8rem;
+$font-copy:                 1.6rem;
 $font-heading:              2.4rem;
 
 $font-family--base:         'Karla', sans-serif;
@@ -29,7 +29,3 @@ $wrapper-width:             96rem;
 // breakpoints
 
 $breakpoint:                996px;
-
-body{
-  content: $breakpoint;
-}
