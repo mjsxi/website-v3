@@ -38,6 +38,7 @@
       height: 30vh;
 
       transition: height .3s;
+      transform-origin: center center;
 
       @include bp($breakpoint) {
         height: 40vh;
