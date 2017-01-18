@@ -39,24 +39,23 @@
 
   &--nav {
     @include max-bp($breakpoint) {
+      transition: all .3s !important;
+
       position: absolute;
       visibility: hidden;
-      top: 5.5rem;
-      right: .5rem;
-      width: 50vw;
-      height: 100vh;
+      top: 5.1rem;
+      right: 0rem;
+
+      //background: $color-white;
 
       display: flex;
       flex-direction: column;
       align-items: flex-end;
+      opacity: 0;
 
-      a {
-        transition: all .3s !important;
-
-        opacity: 0;
-
+      a,p {
         padding: 1rem;
-        margin: 1rem;
+        margin: 1.5rem;
         color: $color-white;
         background: $color-text--bold;
 
@@ -70,12 +69,18 @@
         }
       }
 
+      p {
+        background: $color-white;
+        color: $color-text--bold;
+
+        &:hover {
+          color: $color-text--bold !important;
+        }
+      }
+
       &.active {
         visibility: visible;
-
-        a {
-          opacity: 1;
-        }
+        opacity: 1;
       }
     }
 
@@ -83,6 +88,12 @@
       cursor: pointer;
       margin-left: .25rem;
       transition: color $default-duration;
+
+      &:nth-child(1) {
+        @include bp($breakpoint) {
+          margin-right: 3rem;
+        }
+      }
 
       &.nav--active {
         //font-family: $font-family--heading;
@@ -95,6 +106,10 @@
       &:hover {
         color: $color-text--hover;
       }
+    }
+
+    p {
+      display: inline-block;
     }
   }
 
