@@ -9,6 +9,14 @@
 
   border-bottom: 1px solid $color-grey;
 
+  &--nav-button {
+    max-width: 18px;
+
+    @include bp($breakpoint) {
+      display: none;
+    }
+  }
+
   &--wrapper {
     @include bp($breakpoint) {
       width: $wrapper-width;
@@ -27,25 +35,67 @@
     @include bp($breakpoint) {
 
     }
+  }
 
-    nav {
+  &--nav {
+    @include max-bp($breakpoint) {
+      position: absolute;
+      visibility: hidden;
+      top: 5.5rem;
+      right: .5rem;
+      width: 50vw;
+      height: 100vh;
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+
       a {
-        cursor: pointer;
-        margin-left: .25rem;
-        transition: color $default-duration;
-        &.nav--active {
-          //font-family: $font-family--heading;
-          color: $color-text--link;
-          &:hover {
-            color: $color-text--link;
-          }
-        }
+        transition: all .3s !important;
+
+        opacity: 0;
+
+        padding: 1rem;
+        margin: 1rem;
+        color: $color-white;
+        background: $color-text--bold;
+
         &:hover {
-          color: $color-text--hover;
+          color: $color-white !important;
+        }
+
+        &.nav--active {
+          color: $color-white !important;
+          background: $color-text--link;
+        }
+      }
+
+      &.active {
+        visibility: visible;
+
+        a {
+          opacity: 1;
         }
       }
     }
 
+    a {
+      cursor: pointer;
+      margin-left: .25rem;
+      transition: color $default-duration;
+
+      &.nav--active {
+        //font-family: $font-family--heading;
+        color: $color-text--link;
+        &:hover {
+          color: $color-text--link;
+        }
+      }
+
+      &:hover {
+        color: $color-text--hover;
+      }
+    }
   }
 
   &--name {

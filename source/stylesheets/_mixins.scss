@@ -5,3 +5,9 @@
     @content;
   }
 }
+
+@mixin max-bp($point) {
+  @media screen and (max-width: #{$point}) {
+    @content;
+  }
+}
