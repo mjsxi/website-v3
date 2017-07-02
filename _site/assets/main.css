@@ -442,7 +442,7 @@ table {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   color: #4f4f4f;
   margin-bottom: 0rem;
   line-height: 60px;
@@ -451,6 +451,10 @@ h4, h5, h6 {
 h2 {
   font-size: 38px; }
 
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url("./fonts/sofia_pro_black.woff") format("woff");
+  font-style: normal; }
 @font-face {
   font-family: 'Apercu Mono';
   src: url("./fonts/apercu_mono.woff") format("woff");
@@ -531,7 +535,7 @@ h2 {
       .c-header .header-container {
         margin: 0; } }
   .c-header .header-title {
-    font-family: sans-serif;
+    font-family: "Sofia Pro", sans-serif;
     color: #4f4f4f;
     font-size: 18px; }
   .c-header .header-nav-button {
