@@ -4,13 +4,12 @@
   &--insights,
   &--voxdotcom,
   &--concert {
-    //border-bottom: 1px solid $color-grey;
 
-    margin-top: 15rem;
-    margin-bottom: 10rem;
+    margin-top: 5rem;
+    //margin-bottom: 10rem;
 
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    //adding-bottom: 5rem;
 
     @include bp($breakpoint) {
 
@@ -19,7 +18,11 @@
     .image-container {
       overflow-x: scroll;
       padding: 1.5rem 0rem;
-      background: $color-text--bold;
+      margin-bottom: .5rem;
+
+      @include bp($breakpoint) {
+        //margin-bottom: 2rem;
+      }
 
       &::-webkit-scrollbar {
         width: 0px;
@@ -41,12 +44,16 @@
       transition: height .3s;
       transform-origin: center center;
 
+      &.images--active {
+        height: 38vh;
+      }
+
       @include bp($breakpoint) {
-        height: 40vh;
+        height: 50vh;
         padding-left: calc((100% - 930px)/2);
 
         &.images--active {
-          height: 60vh;
+          height: 70vh;
         }
       }
 
@@ -59,13 +66,20 @@
         margin-right: 1rem;
         transition: height .3s;
         transform-origin: center center;
+        border-radius: 3px;
+
+        box-shadow: 0px 0px 15px lighten($color-text--bold,35%);
+
+        &.active {
+          height: 38vh;
+        }
 
         @include bp($breakpoint) {
-          height: 40vh;
+          height: 50vh;
           transition-delay: 0s;
 
           &.active {
-            height: 60vh;
+            height: 70vh;
           }
         }
       }
@@ -83,28 +97,24 @@
     .heading {
       font-family: $font-family--heading;
       color: $color-text--bold;
-      font-size: 7rem;
-      margin-bottom: 2rem;
-      line-height: 6rem;
-
-      @include bp($breakpoint) {
-        font-size: 12rem;
-        margin-bottom: 3rem;
-        line-height: 10rem;
-      }
+      font-size: $font-heading;
+      margin-bottom: 0rem;
+      line-height: 9rem;
     }
 
     .tags {
-      margin-bottom: 1.8rem;
+      margin-bottom: .9rem;
       li {
         display: inline-block;
         background: $color-text;
         color: $color-white;
         font-size: 1.2rem;
         padding: .75rem 1rem;
-        transform: skew(-10deg);
+        margin-bottom: 1.5rem;
+        margin-left: -.6rem;
+        //transform: skew(-10deg);
         p {
-          transform: skew(10deg);
+          //transform: skew(10deg);
           margin-bottom: 0;
           line-height: 1.75rem;
         }
@@ -119,15 +129,7 @@
       margin-bottom: 1.8rem;
 
       @include bp($breakpoint) {
-        max-width: 50rem;
-      }
-    }
-
-    a {
-      color: $color-text--link;
-      transition: color $default-duration;
-      &:hover {
-        color: $color-text--hover;
+        max-width: 75rem;
       }
     }
   }

@@ -88,12 +88,11 @@
     a {
       cursor: pointer;
       margin-left: .25rem;
+      color: $color-white;
       transition: color $default-duration;
 
-      &:nth-child(1) {
-        @include bp($breakpoint) {
-          margin-right: 3rem;
-        }
+      @include bp($breakpoint) {
+        color: $color-text;
       }
 
       &.nav--active {
@@ -116,6 +115,7 @@
 
   &--name {
     margin-right: auto;
+    font-size: 1.8rem;
 
     strong {
       font-family: $font-family--heading;

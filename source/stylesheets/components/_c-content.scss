@@ -3,7 +3,11 @@
   flex-direction: column;
   justify-content: center;
 
-  font-size: $font-copy;
+  font-size: $font-copy - .2rem;
 
   width: 100vw;
+
+  @include bp($breakpoint) {
+    font-size: $font-copy;
+  }
 }

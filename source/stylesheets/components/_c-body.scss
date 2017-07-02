@@ -1,6 +1,7 @@
 .c-body {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 
   font-family: $font-family--base;
   color: $color-text;
