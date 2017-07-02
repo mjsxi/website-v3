@@ -396,14 +396,15 @@ body {
   font-family: "Apercu Mono", monospace;
   font-size: 0.85rem;
   font-weight: 400;
-  line-height: 1.85rem;
+  line-height: 1.65rem;
   color: #949494;
   position: relative;
   min-height: 100vh;
   overflow-x: hidden; }
   @media screen and (min-width: 962px) {
     body {
-      font-size: 1rem; } }
+      font-size: 1rem;
+      line-height: 1.75; } }
 
 img,
 video {
@@ -626,7 +627,8 @@ h2 {
         color: #ffffff;
         font-size: 12px;
         padding: 3px 8px;
-        margin-bottom: 15px; }
+        margin-bottom: 10px;
+        margin-right: -.25rem; }
         .c-post--content .tags li p {
           margin-bottom: 0;
           margin-top: 0; }
