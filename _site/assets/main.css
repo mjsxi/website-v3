@@ -453,15 +453,15 @@ h2 {
 
 @font-face {
   font-family: 'Sofia Pro';
-  src: url("./images/fonts/SofiaProBlack.woff") format("woff");
+  src: url("./fonts/SofiaProBlack.woff") format("woff");
   font-style: normal; }
 @font-face {
   font-family: 'Sofia Pro';
-  src: url("./images/fonts/SofiaProBlack-Italic.woff") format("woff");
+  src: url("./fonts/SofiaProBlack-Italic.woff") format("woff");
   font-style: italic; }
 @font-face {
   font-family: 'Apercu Mono';
-  src: url("./images/fonts/apercu_mono.woff") format("woff");
+  src: url("./fonts/apercu_mono.woff") format("woff");
   font-style: normal; }
 .c-header .header-container, .c-footer .footer-container, .c-post--content {
   max-width: 930px; }
