@@ -442,7 +442,7 @@ table {
 
 h1, h2, h3,
 h4, h5, h6 {
-  font-family: "Sofia Pro", sans-serif;
+  font-family: sans-serif;
   color: #4f4f4f;
   margin-bottom: 0rem;
   line-height: 60px;
@@ -531,7 +531,7 @@ h2 {
       .c-header .header-container {
         margin: 0; } }
   .c-header .header-title {
-    font-family: "Sofia Pro", sans-serif;
+    font-family: sans-serif;
     color: #4f4f4f;
     font-size: 18px; }
   .c-header .header-nav-button {
