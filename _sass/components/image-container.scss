@@ -28,7 +28,7 @@
 
   @include media-query {
     height: 42vh;
-    padding-left: calc((100% - #{$content-width})/2);
+    padding-left: calc((100% - #{$large-screen})/2);
 
     &.images--active {
       height: 56vh;
