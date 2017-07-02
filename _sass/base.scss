@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $base-font-family;
+  font-size: ($base-font-size - .15rem);
+  font-weight: $base-font-weight;
+  line-height: $base-line-height + .1rem;
+  color: $text-color;
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+
+  @include media-query {
+    font-size: $base-font-size;
+  }
+}
+
+img,
+video {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: $link-color;
+  transition: color $transition-time;
+  &:hover {
+    color: $link-hover-color;
+  }
+}
+
+code,
+pre {
+  padding: 3px 5px;
+  border-radius: 5px;
+  background: $grey-color-light;
+}
+
+pre {
+  padding: 6px 10px;
+}
+
+table {
+  text-align: center;
+  border-collapse: collapse;
+  width: 100%;
+
+  thead {
+    th {
+      background: $grey-color-light;
+    }
+  }
+
+  th {
+    padding: 12px 15px;
+  }
+
+  td {
+    padding: 10px 15px;
+    border-top: 1px solid $grey-color-light;
+  }
+
+  tr:hover {
+    td {
+      background: $grey-color-light;
+    }
+  }
+}
+
+h1,h2,h3,
+h4,h5,h6 {
+  font-family: $heading-font-family;
+  color: $text-color-dark;
+  margin-bottom: 0rem;
+  line-height: 60px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: $heading-font-size;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/SofiaProBlack.woff') format('woff');
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('/fonts/SofiaProBlack-Italic.woff') format('woff');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Apercu Mono';
+  src: url('/fonts/apercu_mono.woff') format('woff');
+  font-style: normal;
+}
+
+%wrapper {
+  max-width: $content-width;
+}
+
+
+
+
+
+
+
+
+
+
+
+

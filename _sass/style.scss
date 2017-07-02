@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+// Defaults variables
+
+$base-font-family:    'Apercu Mono', monospace !default;
+$base-font-size:      1rem !default;
+$base-font-weight:    400 !default;
+$base-line-height:    1.75 !default;
+
+$heading-font-family: 'Sofia Pro', sans-serif !default;
+$heading-font-size:    38px !default;
+$heading-font-weight:  900 !default;
+
+$link-color:          #69CDED !default;
+$link-hover-color:    #E381EB !default;
+
+$text-color:          #949494 !default;
+$text-color-dark:     #4f4f4f !default;
+
+$background-color:    #ffffff !default;
+
+$grey-color:          #828282 !default;
+$grey-color-light:    #dfdfdf !default;
+$grey-color-dark:     darken($grey-color, 25%) !default;
+
+// Page Width
+$content-width:       930px !default;
+
+// Media Query
+$large-screen:        962px !default;
+
+// Transition Duration
+$transition-time:     0.25s;
+
+@mixin media-query {
+  @media screen and (min-width: $large-screen) {
+    @content;
+  }
+}
+
+// Imports
+@import
+  "normalize",
+  "base",
+  "components/c-nav",
+  "components/c-header",
+  "components/c-footer",
+  "components/c-body",
+  "components/c-post",
+  "components/image-container"
+;

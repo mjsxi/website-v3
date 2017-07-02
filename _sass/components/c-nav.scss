@@ -1,0 +1,51 @@
+.c-nav {
+  font-size: 15px;
+
+  a {
+    cursor: pointer;
+  }
+
+  .nav-items {
+    color: $text-color;
+  }
+
+  .nav--active {
+    color: $link-color;
+  }
+}
+
+@media screen and (max-width: $large-screen) {
+  .c-nav {
+    transition: all .3s;
+
+    position: absolute;
+    visibility: hidden;
+    top: 48px;
+    right: 0;
+    height: calc(100vh - 48px);
+
+    background: $background-color;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    opacity: 0;
+
+    &.active {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    .nav-items {
+      color: #ffffff;
+      background: $text-color-dark;
+      padding: 5px 10px;
+      margin: 10px 1rem;
+
+      &.nav--active {
+        color: #ffffff;
+        background: $link-color;
+      }
+    }
+  }
+}

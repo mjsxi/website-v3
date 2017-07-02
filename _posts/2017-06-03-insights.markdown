@@ -1,0 +1,20 @@
+---
+title: insights
+date: 2017-06-03 21:45:36 Z
+layout: page
+tags:
+- user reasearch
+- ux/visual design
+- development
+images:
+- phone.png
+- desktop.png
+- phone.png
+- desktop.png
+- phone.png
+- desktop.png
+---
+
+I led a small team to help redesign our analytics platform by establishing modular design patterns to help tell the story of a brand partner's performance through data.
+
+One of the main challenges of the project was to establish design patterns that would work across all types of campaigns, while pulling out the most relevant pieces of the data story. We used a blend of data visualization and natural language summaries.

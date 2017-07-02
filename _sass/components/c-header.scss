@@ -1,0 +1,42 @@
+.c-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background: $background-color;
+  border-bottom: 1px solid $grey-color-light;
+
+  .header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin: 0 1rem;
+
+    @include media-query {
+      margin: 0;
+    }
+
+    @extend %wrapper;
+  }
+
+  .header-title {
+    font-family: $heading-font-family;
+    color: $text-color-dark;
+
+    font-size: 18px;
+  }
+
+  .header-nav-button {
+    max-width: 18px;
+
+    @include media-query {
+      display: none;
+    }
+  }
+}

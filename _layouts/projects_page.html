@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for post in site.projects reversed %}
+  <div class="c-post--list">
+
+    <!-- <img src="{{ site.baseurl }}/images/{{ post.image }}"> -->
+
+    <h2>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+
+    {{ post.content }}
+
+  </div>
+{% endfor %}

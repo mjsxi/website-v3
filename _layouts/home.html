@@ -1,0 +1,36 @@
+---
+layout: default
+---
+
+{{ content }}
+
+{% for post in site.posts reversed %}
+  <section class="c-post--list" data-section="{{ post.title | escape }}">
+    <div class="c-post--space" data-here=""></div>
+
+    {% if post.images %}
+      <div class="image-container">
+        <div class="images images--active">
+          {% for images in post.images %}
+            <img class="" src="{{ site.baseurl }}/images/{{images}}">
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="c-post--content">
+
+      <h2>{{ post.title | escape }}</h2>
+
+      <ul class="tags">
+        {% for tags in post.tags %}
+          <li><p>{{ tags }}</p></li>
+        {% endfor %}
+      </ul>
+
+      {{ post.content }}
+
+    </div>
+
+  </section>
+{% endfor %}
