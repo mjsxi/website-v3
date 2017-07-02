@@ -1,11 +1,11 @@
 ---
 title: hymnal
 date: 2017-06-04 21:45:36 Z
-layout: page
 tags:
 - user reasearch
 - ux/visual design
 - development
+layout: page
 images:
 - phone.png
 - desktop.png

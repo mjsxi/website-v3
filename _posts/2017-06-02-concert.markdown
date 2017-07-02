@@ -1,10 +1,10 @@
 ---
 title: concert
 date: 2017-06-02 21:45:36 Z
-layout: page
 tags:
 - user reasearch
 - ux/visual design
+layout: page
 images:
 - phone.png
 - desktop.png
