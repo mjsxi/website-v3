@@ -1,6 +1,7 @@
 .c-image-container {
   overflow-x: scroll;
   margin-bottom: .5rem;
+  -webkit-overflow-scrolling: touch;
 
   &::-webkit-scrollbar {
     width: 0px;
