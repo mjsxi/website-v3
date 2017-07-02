@@ -452,15 +452,15 @@ h2 {
   font-size: 38px; }
 
 @font-face {
-  font-family: 'sofia-pro';
+  font-family: 'Sofia-Pro';
   src: url("./fonts/sofiaproblack.woff") format("woff");
   font-style: normal; }
 @font-face {
-  font-family: 'sofia-pro';
+  font-family: 'Sofia-Pro';
   src: url("./fonts/sofiaproblack_italic.woff") format("woff");
   font-style: italic; }
 @font-face {
-  font-family: 'apercu-mono';
+  font-family: 'Apercu-Mono';
   src: url("./fonts/apercu_mono.woff") format("woff");
   font-style: normal; }
 .c-header .header-container, .c-footer .footer-container, .c-post--content {
