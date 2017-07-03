@@ -390,7 +390,9 @@ template {
   display: none; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: transparent; }
 
 body {
   font-family: "Apercu Mono", monospace;
