@@ -7,12 +7,9 @@ tags:
 alt-title: concert portfolio
 layout: page
 images:
-- phone.png
-- desktop.png
-- phone.png
-- desktop.png
-- phone.png
-- desktop.png
+- concert-home-page-mobile.png
+- concert-home-page.png
+- concert-product-page.png
 ---
 
 I am a ux/product designer with a background in human centered design. designs with data & user research most of the time, intuition & experience the rest of the time.
