@@ -12,7 +12,7 @@ layout: default
       <div class="c-image-container">
         <div class="images images--active">
           {% for images in post.images %}
-            {% if forloop.first %}
+            {% if forloop.index == 1 %}
               <img class="active" src="{{ site.baseurl }}/images/{{images}}">
             {% else %}
               <img class="" src="{{ site.baseurl }}/images/{{images}}">
