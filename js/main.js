@@ -1,3 +1,6 @@
+---
+---
+
 $( function() {
 
   // Nav
@@ -6,11 +9,8 @@ $( function() {
   var wasWithin = null;
 
   var tops = [
-    $('[data-section="about"]').position().top,
-    $('[data-section="concert"]').position().top,
-    $('[data-section="insights"]').position().top,
-    $('[data-section="hymnal"]').position().top,
-    $('[data-section="vox"]').position().top
+    {% for post in site.posts reversed %}$('[data-section="{{ post.title | escape }}"]').position().top,
+    {% endfor %}
   ];
 
   var $menuItems = $('.nav-items');
@@ -33,11 +33,8 @@ $( function() {
 
   function setTops() {
     tops = [
-      $('[data-section="about"]').position().top,
-      $('[data-section="concert"]').position().top,
-      $('[data-section="insights"]').position().top,
-      $('[data-section="hymnal"]').position().top,
-      $('[data-section="vox"]').position().top
+      {% for post in site.posts reversed %}$('[data-section="{{ post.title | escape }}"]').position().top,
+      {% endfor %}
     ];
   }
 
