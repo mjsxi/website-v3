@@ -58,11 +58,6 @@ $( function() {
 
   // Images
 
-
-  $('.images').each(function() {
-    $(this).find('img:first').addClass('active');
-  });
-
   function setImageLogic() {
     $('.images img').on('click', function(e) {
       // Update active class on image click
