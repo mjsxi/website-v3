@@ -13,6 +13,6 @@ images:
 - insights-pattern-page.png
 ---
 
-I led a small team to help redesign our analytics platform by establishing modular design patterns to help tell the story of a brand partner's performance through data.
+I worked on a small team to help redesign our analytics platform. My duties included establishing a modular design system of patterns to help tell the story of a brand partner's performance through data.
 
-One of the main challenges of the project was to establish design patterns that would work across all types of campaigns, while pulling out the most relevant pieces of the data story. We used a blend of data visualization and natural language summaries.
+One of the main challenges of the project was to establish design patterns that would work across all types of campaigns, while pulling out the most relevant pieces of the data story. We used a blend of data visualization and natural language summaries to achive this goal.
