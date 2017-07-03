@@ -7,12 +7,12 @@ tags:
 alt-title: voxdotcom
 layout: page
 images:
-- phone.png
-- desktop.png
-- phone.png
-- desktop.png
-- phone.png
-- desktop.png
+- vox-home-page-mobile.png
+- vox-home-page.png
+- vox-article-page-mobile.png
+- vox-article-page.png
+- vox-storystream-page-mobile.png
+- vox-storystream-page.png
 ---
 
 Being part of the Voxdotcom Homepage Redesign Team has been extremely rewarding and instrumental in my professional growth. Over the course of a few months the team went from mocks, to prototypes, to the actual buildout. This involved refining and interacting with both the design and coding to focus on clarity of information, good design, and clean code.

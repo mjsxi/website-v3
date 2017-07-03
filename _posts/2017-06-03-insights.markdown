@@ -7,12 +7,10 @@ tags:
 - development
 layout: page
 images:
-- phone.png
-- desktop.png
-- phone.png
-- desktop.png
-- phone.png
-- desktop.png
+- insights-home-page-mobile.png
+- insights-home-page.png
+- insights-client-page.png
+- insights-pattern-page.png
 ---
 
 I led a small team to help redesign our analytics platform by establishing modular design patterns to help tell the story of a brand partner's performance through data.
