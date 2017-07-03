@@ -18,9 +18,21 @@ layout: default
       </div>
     {% endif %}
 
+    {% if post.lede %}
+      <div class="c-lede-container">
+        {% for images in post.lede %}
+          <img class="" src="{{ site.baseurl }}/images/{{images}}">
+        {% endfor %}
+      </div>
+    {% endif %}
+
     <div class="c-post--content">
 
-      <h2>{{ post.title | escape }}</h2>
+      {% if post.alt-title %}
+        <h2>{{ post.alt-title | escape }}</h2>
+      {% else %}
+        <h2>{{ post.title | escape }}</h2>
+      {% endif %}
 
       <ul class="c-tags">
         {% for tags in post.tags %}

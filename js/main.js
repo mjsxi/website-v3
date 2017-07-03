@@ -1,5 +1,7 @@
 $( function() {
 
+  // Nav
+
   var within = 0;
   var wasWithin = null;
 
@@ -53,6 +55,11 @@ $( function() {
   followMenu();
 
   // Images
+
+
+  $('.images').each(function() {
+    $(this).find('img:first').addClass('active');
+  });
 
   function setImageLogic() {
     $('.images img').on('click', function(e) {

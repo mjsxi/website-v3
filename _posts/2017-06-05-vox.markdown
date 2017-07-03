@@ -1,5 +1,6 @@
 ---
 title: vox
+alt-title: voxdotcom
 date: 2017-06-05 21:45:36 Z
 tags:
 - visual design
