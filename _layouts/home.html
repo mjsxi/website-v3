@@ -42,7 +42,9 @@ layout: default
 
       {{ post.content }}
 
-      <!--a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a-->
+      <!-- {% if post.title != "about" %}
+        <a class="post-link" href="{{ post.url | relative_url }}">Read More</a>
+      {% endif %} -->
 
     </div>
 

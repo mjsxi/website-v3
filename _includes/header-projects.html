@@ -1,0 +1,22 @@
+<header class="c-header" role="banner">
+
+  <div class="header-container">
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    <!-- a class="" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a -->
+    <div class="header-title">{{ site.title | escape }}</div>
+
+    <img class="header-nav-button" src="{{ site.baseurl }}/images/mobile_nav.svg">
+    <nav class="c-nav--projects">
+      {% for post in site.posts reversed %}
+        {% if page.url == post.url %}
+          <a class="nav-items active" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {% elsif post.title == "about" %}
+          <a class="nav-items" href="/">home</a>
+        {% else %}
+          <a class="nav-items" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+  </div>
+</header>
