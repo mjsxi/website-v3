@@ -469,31 +469,23 @@ h2 {
 .c-header .header-container, .c-footer .footer-container, .c-post--content {
   max-width: 930px; }
 
-.c-nav,
-.c-nav--projects {
+.c-nav {
   font-size: 15px; }
-  .c-nav a,
-  .c-nav--projects a {
+  .c-nav a {
     cursor: pointer; }
-  .c-nav .nav-items,
-  .c-nav--projects .nav-items {
+  .c-nav .nav-items {
     color: #949494; }
-  .c-nav .nav--active,
-  .c-nav--projects .nav--active {
+  .c-nav .nav--active {
     color: #69CDED; }
 
-.c-nav--projects {
-  font-size: 15px; }
-  .c-nav--projects a {
-    cursor: pointer; }
-  .c-nav--projects .nav-items {
-    color: #949494; }
-    .c-nav--projects .nav-items:hover {
-      color: #E381EB; }
-    .c-nav--projects .nav-items.active {
-      color: #69CDED; }
-  .c-nav--projects .nav--active {
+.projects .nav-items {
+  color: #949494; }
+  .projects .nav-items:hover {
+    color: #E381EB; }
+  .projects .nav-items.active {
     color: #69CDED; }
+.projects .nav--active {
+  color: #69CDED; }
 
 .c-nav--bottom {
   display: -webkit-box;
@@ -537,7 +529,13 @@ h2 {
       margin: 10px 1rem; }
       .c-nav .nav-items.nav--active {
         color: #ffffff;
-        background: #69CDED; } }
+        background: #69CDED; }
+
+  .projects .nav-items {
+    color: #ffffff; }
+    .projects .nav-items.active {
+      background: #69CDED;
+      color: #ffffff; } }
 .c-header {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -46,7 +46,7 @@ layout: default
         </ul>
       {% endif %}
 
-      {{ post.content }}
+      {{ post.excerpt }}
 
       {% if post.title != "about" %}
         <a class="post-link" href="{{ post.url | relative_url }}">Read More</a>

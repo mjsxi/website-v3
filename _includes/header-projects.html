@@ -7,7 +7,7 @@
     <div class="header-title">{{ site.title | escape }}</div>
 
     <img class="header-nav-button" src="{{ site.baseurl }}/images/mobile_nav.svg">
-    <nav class="c-nav--projects">
+    <nav class="c-nav projects">
       {% for post in site.posts reversed %}
         {% if page.url == post.url %}
           <a class="nav-items active" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
