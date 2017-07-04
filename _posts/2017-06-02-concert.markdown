@@ -13,3 +13,9 @@ images:
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada turpis sed bibendum consequat. Sed pretium tellus id ex tincidunt, eget accumsan diam viverra. In vulputate tempus elit a pharetra. Aliquam quis turpis id urna commodo efficitur vitae vitae nisi. Morbi id vestibulum nisi. Morbi sed ipsum porta, rutrum est at, laoreet nibh.
+
+<!--more-->
+
+<div class="c-mosaic">
+
+</div>

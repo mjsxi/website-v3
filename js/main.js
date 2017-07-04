@@ -66,4 +66,9 @@ $( function() {
   $('.header-nav-button, .c-nav a').click(function() {  //use a class, since your ID gets mangled
     $('.c-nav').toggleClass('active');      //add the class to the clicked element
   });
+
+  // $('.c-mosaic img').click(function() {  //use a class, since your ID gets mangled
+  //   $('.c-mosaic img').removeClass('active');      //add the class to the clicked element
+  //   $(this).addClass('active');
+  // });
 });
