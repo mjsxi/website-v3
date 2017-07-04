@@ -15,12 +15,12 @@ layout: default
   <div class="c-nav--bottom">
     {% if page.next.url %}
       <a class="next" href="{{page.next.url}}">&laquo; {{page.next.title}}</a>
-      {% else %}
+      {% elsif page.next.title == "about" %}
       <a class="next" href="{{site.projects.first.url}}">&laquo; {{site.projects.first.title}}</a>
     {% endif %}
     {% if page.previous.url %}
       <a class="prev" href="{{page.previous.url}}">{{page.previous.title}} &raquo;</a>
-      {% else %}
+      {% elsif page.previous.title == "about" %}
       <a class="prev" href="{{site.projects.last.url}}">{{site.projects.last.title}} &raquo;</a>
     {% endif %}
   </div>
