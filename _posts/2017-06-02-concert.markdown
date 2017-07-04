@@ -16,6 +16,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada tur
 
 <!--more-->
 
-<div class="c-mosaic">
 ![mikes-responce.jpg](/uploads/mikes-responce.jpg)
+
+<div class="c-mosaic">
+
 </div>
