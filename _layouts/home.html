@@ -38,11 +38,13 @@ layout: default
         <h2>{{ post.title | escape }}</h2>
       {% endif %}
 
-      <ul class="c-tags">
-        {% for tags in post.tags %}
-          <li><p>{{ tags }}</p></li>
-        {% endfor %}
-      </ul>
+      {% if post.tags %}
+        <ul class="c-tags">
+          {% for tags in post.tags %}
+            <li><p>{{ tags }}</p></li>
+          {% endfor %}
+        </ul>
+      {% endif %}
 
       {{ post.content }}
 
