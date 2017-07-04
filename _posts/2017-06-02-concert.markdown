@@ -1,15 +1,15 @@
 ---
 title: concert
-date: 2017-06-02 21:45:36 Z
+date: 2017-06-02 21:45:00 Z
 tags:
 - user reasearch
 - ux/visual design
 alt-title: concert portfolio
-layout: page
 images:
 - concert-home-page-mobile.png
 - concert-home-page.png
 - concert-product-page.png
+layout: page
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada turpis sed bibendum consequat. Sed pretium tellus id ex tincidunt, eget accumsan diam viverra. In vulputate tempus elit a pharetra. Aliquam quis turpis id urna commodo efficitur vitae vitae nisi. Morbi id vestibulum nisi. Morbi sed ipsum porta, rutrum est at, laoreet nibh.
@@ -17,5 +17,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada tur
 <!--more-->
 
 <div class="c-mosaic">
-
+![mikes-responce.jpg](/uploads/mikes-responce.jpg)
 </div>
