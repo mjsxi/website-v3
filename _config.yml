@@ -13,11 +13,10 @@ collections:
     output: true
 email: your-email@domain.com
 description: 'I am a ux/product designer with a background in human centered design.
-             designs with data & user research most of the time,
-             intuition & experience the rest of the time.
-'
-baseurl:
-url:
+  designs with data & user research most of the time, intuition & experience the rest
+  of the time. '
+baseurl: 
+url: 
 twitter_username: mjsxi
 github_username: mjsxi
 permalink: "/projects/:title.html"
