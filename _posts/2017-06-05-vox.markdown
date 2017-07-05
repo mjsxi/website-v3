@@ -21,11 +21,11 @@ Being a part of the original Voxdotcom design team was extremely rewarding and h
 
 While my main focus was on the homepage redesign and various problem sloving involved with it I also touched a bunch of smaller things like storystreams and various interactions across the site.
 
-![vox-vectors.png](../uploads/vox-vectors.png)
-<cite>Various Vectors</cite>
+![vox-early-homepage-1.png](../uploads/vox-early-homepage-1.png)
+<cite>Early Homepage Exploration</cite>
 
-![vox-vectors.png](../uploads/vox-vectors.png)
-<cite>Various Vectors</cite>
+![vox-early-homepage-2.png](/uploads/vox-early-homepage-2.png)
+<cite>Another Early Homepage Exploration</cite>
 
 ![vox-vectors.png](../uploads/vox-vectors.png)
 <cite>Various Vectors</cite>
