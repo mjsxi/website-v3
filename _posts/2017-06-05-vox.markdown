@@ -28,4 +28,4 @@ While my main focus was on the homepage redesign and various problem sloving inv
 <cite>Another Early Homepage Exploration</cite>
 
 ![vox-vectors.png](../uploads/vox-vectors.png)
-<cite>Various Vectors</cite>
+<cite>Various Vector Dump</cite>
