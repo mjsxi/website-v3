@@ -661,7 +661,8 @@ h2 {
       .c-post--content {
         margin: 0 auto; } }
     .c-post--content img {
-      box-shadow: 0 3px 9px -5px rgba(5, 34, 95, 0.18), 0 7px 21px 5px rgba(5, 25, 59, 0.06); }
+      box-shadow: 0 3px 9px -5px rgba(5, 34, 95, 0.18), 0 7px 21px 5px rgba(5, 25, 59, 0.06);
+      margin-bottom: 1rem; }
 
 .c-image-container {
   overflow-x: scroll;

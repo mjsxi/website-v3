@@ -23,15 +23,7 @@ While my main focus was on the homepage redesign and various problem sloving inv
 
 <figure>
   <img src="../uploads/vox-early-homepage-1.png">
-</figure>
-<cite>Early Homepage Exploration</cite>
-
-<figure>
   <img src="../uploads/vox-early-homepage-2.png">
+  <img src="../uploads/vox-early-homepage-3.png">
 </figure>
-<cite>Another Early Homepage Exploration</cite>
-
-<figure>
-  <img src="../uploads/vox-vectors.png">
-</figure>
-<cite>Various Site Icons</cite>
+<cite>Some Early Homepage Exploration</cite>
