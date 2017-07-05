@@ -658,7 +658,6 @@ h2 {
         margin: 0 auto; } }
     .c-post--content img {
       position: relative;
-      content: '';
       box-shadow: 0 3px 9px 0 rgba(5, 34, 95, 0.18), 0 7px 21px 0 rgba(5, 25, 59, 0.06);
       -webkit-transition: all .3s;
       transition: all .3s; }
