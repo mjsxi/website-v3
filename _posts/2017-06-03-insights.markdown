@@ -1,18 +1,25 @@
 ---
 title: insights
-date: 2017-06-03 21:45:36 Z
+date: 2017-06-03 21:45:00 Z
 tags:
 - user reasearch
 - ux/visual design
 - development
-layout: page
 images:
 - insights-home-page-mobile.png
 - insights-home-page.png
 - insights-client-page.png
 - insights-pattern-page.png
+layout: page
 ---
 
 I worked on a small team to help redesign our analytics platform. My duties included establishing a modular design system of patterns to help tell the story of a brand partner's performance through data.
 
 One of the main challenges of the project was to establish design patterns that would work across all types of campaigns, while pulling out the most relevant pieces of the data story. We used a blend of data visualization and natural language summaries to achive this goal.
+
+<!--more-->
+
+<figure>
+  <img src="../uploads/">
+</figure>
+<cite>Some Early Homepage Exploration</cite>
