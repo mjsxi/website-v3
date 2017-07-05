@@ -20,6 +20,6 @@ One of the main challenges of the project was to establish design patterns that 
 <!--more-->
 
 <figure>
-  <img src="../uploads/">
+  <img src="../uploads/insights-early.jpg">
 </figure>
 <cite>Some Early Homepage Exploration</cite>
