@@ -33,8 +33,10 @@
 
       transition: all .3s;
 
-      &:hover {
-        transform: translateY(-5px) scale(1.1);
+      @include media-query {
+        &:hover {
+          transform: translateY(-5px) scale(1.1);
+        }
       }
     }
 
