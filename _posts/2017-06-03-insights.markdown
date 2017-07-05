@@ -21,5 +21,7 @@ One of the main challenges of the project was to establish design patterns that 
 
 <figure>
   <img src="../uploads/insights-early.jpg">
+  <img src="../uploads/insights-early-v2.jpg">
+  <img src="../uploads/insights-early-v3.jpg">
 </figure>
 <cite>Some Early Insights Explorations</cite>
