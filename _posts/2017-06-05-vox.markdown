@@ -15,4 +15,11 @@ images:
 - vox-storystream-page.png
 ---
 
-Being part of the Voxdotcom Homepage Redesign Team has been extremely rewarding and instrumental in my professional growth. Over the course of a few months the team went from mocks, to prototypes, to the actual buildout. This involved refining and interacting with both the design and coding to focus on clarity of information, good design, and clean code.
+Being a part of the original Voxdotcom design team was extremely rewarding and hectic — over the course of a few months the team went from mocks to prototypes to a full production buildout and live. During this project I was involved primarily with refining the homepage and interacting with both the design and code to focus on clarity of information, good design, and clean code.
+
+<!--more-->
+
+While my main focus was on the homepage redesign and various problem sloving involved with it I also touched a bunch of smaller things like storystreams and various interactions across the site.
+
+![vox vectors](/images/vox-vectors.png "Vox Vector Sketches")
+<cite>Various Vectors</cite>
