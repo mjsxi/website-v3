@@ -24,7 +24,7 @@ While my main focus was on the homepage redesign and various problem sloving inv
 ![vox-early-homepage-1.png](../uploads/vox-early-homepage-1.png)
 <cite>Early Homepage Exploration</cite>
 
-![vox-early-homepage-2.png](/uploads/vox-early-homepage-2.png)
+![vox-early-homepage-2.png](../uploads/vox-early-homepage-2.png)
 <cite>Another Early Homepage Exploration</cite>
 
 ![vox-vectors.png](../uploads/vox-vectors.png)
