@@ -22,4 +22,4 @@ One of the main challenges of the project was to establish design patterns that 
 <figure>
   <img src="../uploads/insights-early.jpg">
 </figure>
-<cite>Some Early Homepage Exploration</cite>
+<cite>Some Early Insights Explorations</cite>
