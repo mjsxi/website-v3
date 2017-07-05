@@ -21,5 +21,3 @@ Being a part of the original Voxdotcom design team was extremely rewarding and h
 
 While my main focus was on the homepage redesign and various problem sloving involved with it I also touched a bunch of smaller things like storystreams and various interactions across the site.
 
-![vox vectors](/images/vox-vectors.png "Vox Vector Sketches")
-<cite>Various Vectors</cite>
