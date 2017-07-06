@@ -396,12 +396,13 @@ template {
   -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
   -webkit-overflow-scrolling: touch; }
-  *::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    padding: 1.5rem;
-    background: transparent;
-    display: none; }
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+  padding: 1.5rem;
+  background: transparent;
+  display: none; }
 
 body {
   font-family: "Apercu Mono", monospace;
