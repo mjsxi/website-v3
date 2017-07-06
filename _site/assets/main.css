@@ -398,11 +398,10 @@ template {
   -webkit-overflow-scrolling: touch; }
 
 ::-webkit-scrollbar {
-  width: 0px;
-  height: 0px;
-  padding: 1.5rem;
-  background: transparent;
-  display: none; }
+  width: 0 !important;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
+  display: none !important; }
 
 body {
   font-family: "Apercu Mono", monospace;
