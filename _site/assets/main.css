@@ -394,7 +394,14 @@ template {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-tap-highlight-color: transparent;
-  -webkit-tap-highlight-color: transparent; }
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch; }
+  *::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    padding: 1.5rem;
+    background: transparent;
+    display: none; }
 
 body {
   font-family: "Apercu Mono", monospace;
@@ -669,13 +676,7 @@ h2 {
 
 .c-image-container {
   overflow-x: scroll;
-  margin-bottom: .5rem;
-  -webkit-overflow-scrolling: touch; }
-  .c-image-container::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    padding: 1.5rem;
-    background: transparent; }
+  margin-bottom: .5rem; }
 
 .images {
   padding-left: 1.5rem;
