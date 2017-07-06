@@ -484,7 +484,8 @@ h2 {
   .c-nav a {
     cursor: pointer; }
   .c-nav .nav-items {
-    color: #949494; }
+    color: #949494;
+    margin-left: 0.75rem; }
   .c-nav .nav--active {
     color: #69CDED; }
 

@@ -1,14 +1,6 @@
 .c-image-container {
   overflow-x: scroll;
   margin-bottom: .5rem;
-  -webkit-overflow-scrolling: touch;
-
-  &::-webkit-scrollbar {
-    width: 0px;
-    height: 0px;
-    padding: 1.5rem;
-    background: transparent;
-  }
 }
 
 .images {
