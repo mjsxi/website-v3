@@ -7,11 +7,14 @@
   -webkit-overflow-scrolling: touch;
 }
 
-::-webkit-scrollbar {
-  width: 0 !important;
-  -ms-overflow-style: none;
-  overflow: -moz-scrollbars-none;
-  display: none !important;
+::-webkit-scrollbar,
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece,
+::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-corner,
+::-webkit-resizer {
+  display: none;
 }
 
 body {
