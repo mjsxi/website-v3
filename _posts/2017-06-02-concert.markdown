@@ -16,6 +16,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada tur
 
 <!--more-->
 
+Frank is still awesome
+
 <div class="c-mosaic">
 
 </div>
