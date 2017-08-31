@@ -4,7 +4,7 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <!-- a class="" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a -->
-    <div class="header-title"><a class="nav-items" href="/">{{ site.title | escape }}</a></div>
+    <div class="header-title"><a href="/">{{ site.title | escape }}</a></div>
 
     <img class="header-nav-button" src="{{ site.baseurl }}/images/mobile_nav.svg">
     <nav class="c-nav">
