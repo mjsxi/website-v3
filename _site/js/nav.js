@@ -10,6 +10,13 @@ $( function() {
     $('[data-section="hymnal"]').position().top,
     $('[data-section="vox"]').position().top,
     
+
+    // when compiled it looks like this
+    // $('[data-section="about"]').position().top,
+    // $('[data-section="concert"]').position().top,
+    // $('[data-section="insights"]').position().top,
+    // $('[data-section="hymnal"]').position().top,
+    // $('[data-section="vox"]').position().top
   ];
 
   var $menuItems = $('.nav-items');
@@ -32,12 +39,19 @@ $( function() {
 
   function setTops() {
     tops = [
-      $('[data-section="about"]').position().top,
-      $('[data-section="concert"]').position().top,
-      $('[data-section="insights"]').position().top,
-      $('[data-section="hymnal"]').position().top,
-      $('[data-section="vox"]').position().top,
-      
+    $('[data-section="about"]').position().top,
+    $('[data-section="concert"]').position().top,
+    $('[data-section="insights"]').position().top,
+    $('[data-section="hymnal"]').position().top,
+    $('[data-section="vox"]').position().top,
+    
+
+    // when compiled it looks like this
+    // $('[data-section="about"]').position().top,
+    // $('[data-section="concert"]').position().top,
+    // $('[data-section="insights"]').position().top,
+    // $('[data-section="hymnal"]').position().top,
+    // $('[data-section="vox"]').position().top
     ];
   }
 

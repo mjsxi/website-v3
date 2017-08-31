@@ -594,6 +594,8 @@ h2 {
     font-family: "Sofia Pro", sans-serif;
     color: #4f4f4f;
     font-size: 18px; }
+    .c-header .header-title a {
+      color: #4f4f4f; }
   .c-header .header-nav-button {
     max-width: 18px; }
     @media screen and (min-width: 962px) {

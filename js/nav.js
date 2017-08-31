@@ -9,6 +9,13 @@ $( function() {
   var tops = [
     {% for post in site.posts reversed %}$('[data-section="{{ post.title | escape }}"]').position().top,
     {% endfor %}
+
+    // when compiled it looks like this
+    // $('[data-section="about"]').position().top,
+    // $('[data-section="concert"]').position().top,
+    // $('[data-section="insights"]').position().top,
+    // $('[data-section="hymnal"]').position().top,
+    // $('[data-section="vox"]').position().top
   ];
 
   var $menuItems = $('.nav-items');
@@ -31,8 +38,15 @@ $( function() {
 
   function setTops() {
     tops = [
-      {% for post in site.posts reversed %}$('[data-section="{{ post.title | escape }}"]').position().top,
-      {% endfor %}
+    {% for post in site.posts reversed %}$('[data-section="{{ post.title | escape }}"]').position().top,
+    {% endfor %}
+
+    // when compiled it looks like this
+    // $('[data-section="about"]').position().top,
+    // $('[data-section="concert"]').position().top,
+    // $('[data-section="insights"]').position().top,
+    // $('[data-section="hymnal"]').position().top,
+    // $('[data-section="vox"]').position().top
     ];
   }
 
