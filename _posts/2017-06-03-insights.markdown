@@ -35,4 +35,4 @@ A sketched iteration on how to give users a peak into what types of data is incl
   <img src="../uploads/insights-early-v3.jpg">
 </figure>
 
-An early mock of a campaign page.
+An later mock of a campaign page, which eventually shaped a good portion of the visual design of Insights.
