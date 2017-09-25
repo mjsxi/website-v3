@@ -21,7 +21,16 @@ One of the main challenges of the project was to establish design patterns that 
 
 <figure>
   <img src="../uploads/insights-early.jpg">
+</figure>
+
+An early iteration of Insights which included graphs and other data visualizations to help with digesting numbers and other data points.
+
+<figure>
   <img src="../uploads/insights-early-v2.jpg">
+</figure>
+
+<figure>
   <img src="../uploads/insights-early-v3.jpg">
 </figure>
+
 <cite>Some Early Insights Explorations</cite>
