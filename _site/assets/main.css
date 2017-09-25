@@ -619,13 +619,13 @@ h2 {
       -webkit-transition: width 0.25s;
       transition: width 0.25s; }
     .c-header .header-nav-button .top {
-      width: 75%; }
+      width: 65%; }
     .c-header .header-nav-button .middle {
-      width: 90%;
+      width: 85%;
       margin-top: 3px;
       margin-bottom: 3px; }
     .c-header .header-nav-button .bottom {
-      width: 60%; }
+      width: 50%; }
     .c-header .header-nav-button.active .top {
       width: 95%; }
     .c-header .header-nav-button.active .middle {
