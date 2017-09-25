@@ -29,8 +29,10 @@ An early iteration of Insights which included graphs and other data visualizatio
   <img src="../uploads/insights-early-v2.jpg">
 </figure>
 
+A sketched iteration on how to give users a peak into what types of data is included in a campaign — our goal was to try and make things easily glanceable.
+
 <figure>
   <img src="../uploads/insights-early-v3.jpg">
 </figure>
 
-<cite>Some Early Insights Explorations</cite>
+An early mock of a campaign page.
