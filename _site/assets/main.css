@@ -597,7 +597,41 @@ h2 {
     .c-header .header-title a {
       color: #4f4f4f; }
   .c-header .header-nav-button {
-    max-width: 18px; }
+    max-width: 18px;
+    width: 100%;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+    .c-header .header-nav-button .top,
+    .c-header .header-nav-button .middle,
+    .c-header .header-nav-button .bottom {
+      height: 2px;
+      background: #949494;
+      border-radius: 5px;
+      -webkit-transition: width 0.25s;
+      transition: width 0.25s; }
+    .c-header .header-nav-button .top {
+      width: 75%; }
+    .c-header .header-nav-button .middle {
+      width: 90%;
+      margin-top: 3px;
+      margin-bottom: 3px; }
+    .c-header .header-nav-button .bottom {
+      width: 60%; }
+    .c-header .header-nav-button.active .top {
+      width: 95%; }
+    .c-header .header-nav-button.active .middle {
+      width: 100%; }
+    .c-header .header-nav-button.active .bottom {
+      width: 80%; }
     @media screen and (min-width: 962px) {
       .c-header .header-nav-button {
         display: none; } }

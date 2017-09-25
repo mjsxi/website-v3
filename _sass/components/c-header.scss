@@ -38,6 +38,48 @@
 
   .header-nav-button {
     max-width: 18px;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    .top,
+    .middle,
+    .bottom {
+      height: 2px;
+      background: $text-color;
+      border-radius: 5px;
+      transition: width $transition-time;
+    }
+
+    .top {
+      width: 75%;
+    }
+
+    .middle {
+      width: 90%;
+      margin-top: 3px;
+      margin-bottom: 3px;
+    }
+
+    .bottom {
+      width: 60%;
+    }
+
+    &.active {
+      .top {
+        width: 95%;
+      }
+
+      .middle {
+        width: 100%;
+      }
+
+      .bottom {
+        width: 80%;
+      }
+    }
 
     @include media-query {
       display: none;
