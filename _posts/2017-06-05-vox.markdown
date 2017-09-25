@@ -21,9 +21,19 @@ Being a part of the original Voxdotcom design team was extremely rewarding and h
 
 While my main focus was on the homepage redesign and various problem sloving involved with it I also touched a bunch of smaller things like storystreams and various interactions across the site.
 
+[vox.com](https://www.vox.com "Visit Voxdotcoms Homepage")
+
 <figure>
   <img src="../uploads/vox-early-homepage-1.png">
+</figure>
+<cite>An early homepaage exploration</cite>
+
+<figure>
   <img src="../uploads/vox-early-homepage-2.png">
+</figure>
+<cite>An early homepaage exploration</cite>
+
+<figure>
   <img src="../uploads/vox-early-homepage-3.png">
 </figure>
-<cite>Some Early Homepage Exploration</cite>
+<cite>An early homepaage exploration</cite>

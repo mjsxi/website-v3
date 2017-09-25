@@ -5,9 +5,9 @@ $( function() {
 
   var tops = [
     $('[data-section="about"]').position().top,
+    $('[data-section="hymnal"]').position().top,
     $('[data-section="concert"]').position().top,
     $('[data-section="insights"]').position().top,
-    $('[data-section="hymnal"]').position().top,
     $('[data-section="vox"]').position().top,
     
 
@@ -40,9 +40,9 @@ $( function() {
   function setTops() {
     tops = [
     $('[data-section="about"]').position().top,
+    $('[data-section="hymnal"]').position().top,
     $('[data-section="concert"]').position().top,
     $('[data-section="insights"]').position().top,
-    $('[data-section="hymnal"]').position().top,
     $('[data-section="vox"]').position().top,
     
 
